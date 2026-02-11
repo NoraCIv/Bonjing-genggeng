@@ -1,0 +1,13 @@
+import java.text.DecimalFormat;
+
+public class Main{
+    public static void main(String[] args){
+        Payroll payroll = new PayrollCompute();
+        DecimalFormat df = new DecimalFormat("#,##0.00");
+        
+        payroll.setHoursWorked();
+        payroll.computeGrossPay();
+        
+        System.out.println("Gross Pay: PHP " + df.format(payroll.displayGrossPay()));
+    }
+}
