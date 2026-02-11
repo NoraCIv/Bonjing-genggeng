@@ -1,0 +1,7 @@
+public abstract class Payroll{
+    protected double hoursWorked;
+    
+    public abstract void setHoursWorked();
+    public abstract void computeGrossPay();
+    public abstract double displayGrossPay();
+}
