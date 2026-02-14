@@ -1,0 +1,7 @@
+public interface SortInterface{
+    void displayUnsorted(double[] arr);
+    void displaySorted(double[] arr);
+    double getSum(double[] arr);
+    double getAverage(double[] arr);
+    double getLowest(double[] arr);
+}
